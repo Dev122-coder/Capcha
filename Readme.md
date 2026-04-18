@@ -1,1 +1,1 @@
-#capchac
+#capcha

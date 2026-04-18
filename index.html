@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CAPTCHA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="card">
+        <div class="head">
+            <p class="first">Human Varification</p>
+            <p class="second">
+                // type the distorted characters</p>
+        </div>
+        <div class="canvas-row">
+            <div class="canva">
+                <p></p>
+            </div>
+            <button class="refresh-btn" id="refreshBtn" title="New code">↻</button>
+        </div>
+
+        <div class="least">
+
+            <input type="text" id="text" placeholder="Enter 6 characters">
+
+            <button class="last">Verify -></button>
+        </div>
+
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+
+</body>
+
+</html>

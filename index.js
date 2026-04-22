@@ -13,8 +13,7 @@ function capcha() {
         currentcode = currentcode + items[random_index];
     }
 
-    p.textContent = currentcode;
-
+    p.textContent = currentcode 
 }
 
 $("#refreshBtn").click(function () {
